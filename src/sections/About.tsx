@@ -1,6 +1,7 @@
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
+import { CardHeader } from "@/components/CardHeader";
 
 import bookImage from "@/assets/images/book-cover.png";
 import mapImage from "@/assets/images/map.png";
@@ -13,7 +14,6 @@ import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 
 import Image from "next/image";
-import { CardHeader } from "../components/CardHeader";
 
 const toolboxItems = [
   {
@@ -143,9 +143,15 @@ export const AboutSection = () => {
               ))}
             </div>
           </Card>
-          <Card className="h-[320px]">
-            <Image src={mapImage} alt="Map" />
-            <Image src={smileMemoji} alt="Smile Memoji" />
+          <Card className="h-[320px] p-0 relative">
+            <Image
+              src={mapImage}
+              alt="Map"
+              className="h-full w-full object-cover"
+            />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 size-20 rounded-full bg-gradient-to-r from-emerald-300 to-sky-400 after: content-[''] after:absolute after:inset-0 after:outline after:outline-2 after:-outline-offset-2 after:rounded-full after:outline-gray-950/30 ">
+              <Image src={smileMemoji} alt="Smile Memoji" className="size-20" />
+            </div>
           </Card>
         </div>
       </div>
