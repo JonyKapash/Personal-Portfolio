@@ -2,11 +2,6 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const footerLinks = [
   {
-    title: "Email",
-    href: "mailto:yonikps@gmail.com",
-    ariaLabel: "Send me an email",
-  },
-  {
     title: "GitHub",
     href: "https://github.com/JonyKapash",
     ariaLabel: "Visit my GitHub profile",

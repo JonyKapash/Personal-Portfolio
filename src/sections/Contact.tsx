@@ -1,9 +1,10 @@
-import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import { Card } from "@/components/Card";
+
+import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 export const ContactSection = () => {
   return (
-    <section className="py-16 pt-12 lg:py-24 lg:pt-20">
+    <section className="py-16 pt-12 lg:py-24 lg:pt-20" id="contact">
       <div className="container">
         <Card className="p-8 px-10 text-center md:text-left bg-gradient-to-r from-emerald-300 to-sky-400 text-gray-900">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center">

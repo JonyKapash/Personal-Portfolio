@@ -1,11 +1,15 @@
+import Image from "next/image";
+
+import { Card } from "@/components/Card";
+import { SectionHeader } from "@/components/SectionHeader";
+
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import { SectionHeader } from "@/components/SectionHeader";
-import { Card } from "@/components/Card";
-import Image from "next/image";
+
+
 
 const portfolioProjects = [
   {
@@ -48,7 +52,7 @@ const portfolioProjects = [
 
 export const ProjectsSection = () => {
   return (
-    <section className="pb-16 lg:py-24">
+    <section className="pb-16 lg:py-24" id="projects">
       <div className="container">
         <SectionHeader
           eyebrow="Real-world Results"

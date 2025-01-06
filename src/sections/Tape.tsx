@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+
 import StarIcon from "@/assets/icons/star.svg";
 
 const words = [

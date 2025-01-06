@@ -1,6 +1,10 @@
 "use client";
 
+import Image from "next/image";
+
+import { useRef } from "react";
 import { motion } from "framer-motion";
+
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
@@ -16,8 +20,6 @@ import ReactIcon from "@/assets/icons/react.svg";
 import ChromeIcon from "@/assets/icons/chrome.svg";
 import GithubIcon from "@/assets/icons/github.svg";
 
-import Image from "next/image";
-import { useRef } from "react";
 
 const toolboxItems = [
   {
@@ -95,7 +97,7 @@ export const AboutSection = () => {
   const constraintsRef = useRef(null);
 
   return (
-    <div className="py-20 lg:py-28">
+    <section className="py-20 lg:py-28" id="about">
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
@@ -175,6 +177,6 @@ export const AboutSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

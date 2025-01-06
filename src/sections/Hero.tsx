@@ -1,21 +1,19 @@
+import Image from "next/image";
+
+import { HeroOrbit } from "@/components/HeroOrbit";
+
 import me from "@/assets/images/me.png";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
-import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
-import Image from "next/image";
-import { HeroOrbit } from "../components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip">
+    <section
+      className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip"
+      id="home"
+    >
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
-        <div
-          className="absolute inset-0 -z-30 opacity-5"
-          style={{
-            backgroundImage: `url(${grainImage.src})`,
-          }}
-        ></div>
         <div className="size-[620px] hero-ring"></div>
         <div className="size-[820px] hero-ring"></div>
         <div className="size-[1020px] hero-ring"></div>
@@ -137,6 +135,6 @@ export const HeroSection = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
