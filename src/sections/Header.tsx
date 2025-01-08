@@ -78,9 +78,9 @@ export const Header = () => {
       </div>
 
       <div ref={homeRef} className="absolute top-0" />
-      <div ref={projectsRef} className="absolute top-[170vh]" />
-      <div ref={aboutRef} className="absolute top-[410vh]" />
-      <div ref={contactRef} className="absolute top-[440vh]" />
+      <div ref={projectsRef} className="absolute top-[170vh] md:top-[160vh] lg:top-[170vh]" />
+      <div ref={aboutRef} className="absolute top-[510vh] md:top-[480vh] lg:top-[500vh]" />
+      <div ref={contactRef} className="absolute top-[680vh] md:top-[500vh] lg:top-[550vh]" />
     </>
   );
 };
