@@ -29,6 +29,7 @@ const config: Config = {
         "ping-large": "ping-large 1s ease-in-out infinite",
         "move-left": "move-left 30s linear infinite",
         "move-right": "move-right 30s linear infinite",
+        "fade-in": "fade-in 1s ease-in-out forwards",
       },
       keyframes: {
         "ping-large": {
@@ -41,6 +42,10 @@ const config: Config = {
         "move-right": {
           "0%": { transform: "translateX(-50%)" },
           "100%": { transform: "translateX(0%)" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
         },
       },
     },
