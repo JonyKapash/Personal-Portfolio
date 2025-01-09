@@ -3,26 +3,24 @@ import Image from "next/image";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
+import facebookClone from "@/assets/images/facebook_Clone_frame.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
-
-
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "FaceBook clone",
+    year: "2020",
+    title: "Basic Facebook Clone Homepage",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "One of my first projects" },
+      { title: "Made with Material UI" },
+      { title: "Deployed on Vercel" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://facebook-clone-otb73myja-yonatans-projects-a343b131.vercel.app",
+    image: facebookClone,
   },
   {
     company: "Innovative Co",
