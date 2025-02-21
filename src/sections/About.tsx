@@ -17,9 +17,12 @@ import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
+import ReduxIcon from "@/assets/icons/redux.svg";
 import GithubIcon from "@/assets/icons/github.svg";
-
+import TailwindIcon from "@/assets/icons/tailwind.svg";
+import TypeScriptIcon from "@/assets/icons/typescript.svg";
+import NodeIcon from "@/assets/icons/node-js.svg";
+import ExpressIcon from "@/assets/icons/express-js.svg";
 
 const toolboxItems = [
   {
@@ -39,12 +42,28 @@ const toolboxItems = [
     iconType: ReactIcon,
   },
   {
-    title: "Chrome",
-    iconType: ChromeIcon,
+    title: "Redux",
+    iconType: ReduxIcon,
   },
   {
     title: "GitHub",
     iconType: GithubIcon,
+  },
+  {
+    title: "Tailwind CSS",
+    iconType: TailwindIcon,
+  },
+  {
+    title: "TypeScript",
+    iconType: TypeScriptIcon,
+  },
+  {
+    title: "Node.js",
+    iconType: NodeIcon,
+  },
+  {
+    title: "Express",
+    iconType: ExpressIcon,
   },
 ];
 

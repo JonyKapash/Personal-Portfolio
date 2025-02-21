@@ -3,17 +3,30 @@ import Image from "next/image";
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 
-import facebookClone from "@/assets/images/facebook_Clone_frame.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import facebookClone from "@/assets/images/facebook.png";
+import techWeb from "@/assets/images/techWeb.png";
+import users from "@/assets/images/users.png";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 
 const portfolioProjects = [
   {
-    company: "FaceBook clone",
-    year: "2020",
-    title: "Basic Facebook Clone Homepage",
+    company: "TechWeb",
+    year: "2025",
+    title: "Tech News Aggregator",
+    results: [
+      { title: "Fetches news from top tech sites" },
+      { title: "Translates them into Hebrew using Gemini AI" },
+      { title: "Saves them in a MongoDB database" },
+      { title: "Built with Next.js, Tailwind, and MongoDB" },
+    ],
+    link: "http://bit.ly/40OIOBY",
+    image: techWeb,
+  },
+  {
+    company: "FaceBook",
+    year: "2021",
+    title: "Facebook Clone Homepage",
     results: [
       { title: "One of my first projects" },
       { title: "Made with Material UI" },
@@ -23,31 +36,19 @@ const portfolioProjects = [
     image: facebookClone,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Users Library",
+    year: "2022",
+    title: "Users Library App",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Created with vite, react, and firebase" },
+      { title: "Fetching data from a custom API" },
+      { title: "Users can add, edit, and delete users" },
     ],
-    link: "https://github.com/JonyKapash",
-    image: lightSaasLandingPage,
-  },
-  {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
-    results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
-    ],
-    link: "https://github.com/JonyKapash",
-    image: aiStartupLandingPage,
+    link: "https://userslibrary-77ea4.web.app",
+    image: users,
   },
 ];
-
+1;
 export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24" id="projects">

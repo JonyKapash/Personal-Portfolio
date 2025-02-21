@@ -106,7 +106,7 @@ export const ContactSection = () => {
             ) : (
               <>
                 <h2 className="font-serif text-2xl md:text-3xl">
-                  Let&apos;s create something amazing together
+                  Let&apos;s create something together
                 </h2>
                 <p className="text-sm md:text-base mt-2">
                   Ready to bring your next project to life? Let&apos;s connect

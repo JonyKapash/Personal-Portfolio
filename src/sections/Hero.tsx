@@ -116,9 +116,7 @@ export const HeroSection = () => {
             <div className="size-2.5 bg-green-500 rounded-full relative">
               <div className="absolute inset-0 bg-green-500 rounded-full animate-ping"></div>
             </div>
-            <div className="text-sm font-medium">
-              Available for work!
-            </div>
+            <div className="text-sm font-medium">Available for work!</div>
           </div>
         </div>
         <div className="max-w-lg mx-auto">
@@ -127,21 +125,21 @@ export const HeroSection = () => {
           </h1>
           <p className="text-center mt-4 text-white/60 md:text-lg">
             I&apos;m a Frontend Developer specializing in transforming designs
-            into functional, high-performing web applications. Let&apos;s discuss
-            your next project.
+            into functional, high-performing web applications. Let&apos;s
+            discuss your next project.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <button
             onClick={() => scrollToSection("projects")}
-            className="flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl"
+            className="flex items-center justify-center gap-2 border border-white/15 px-6 h-12 rounded-xl w-full md:w-auto whitespace-nowrap"
           >
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
           </button>
           <button
             onClick={() => scrollToSection("contact")}
-            className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl"
+            className="flex items-center justify-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl w-full md:w-auto whitespace-nowrap"
           >
             <span>👋</span>
             <span className="font-semibold">Let&apos;s Connect</span>

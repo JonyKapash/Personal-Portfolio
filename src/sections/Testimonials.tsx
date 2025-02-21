@@ -12,34 +12,22 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Yonatan was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
-    avatar: memojiAvatar1,
-  },
-  {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Yonatan was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-    avatar: memojiAvatar2,
-  },
-  {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Yonatan's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
-    avatar: memojiAvatar3,
-  },
-  {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Yonatan is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Shoham Bar Natan",
+    position: "Product Designer (UX/UI)",
+    text: "Working with Yonatan was an absolute pleasure. He’s not just a highly skilled developer but also a true team player. Yonatan asks insightful questions, anticipates needs, and consistently delivers precise, high-quality results. His proactive approach and ability to think ahead make him a standout professional that any team would be lucky to have.",
     avatar: memojiAvatar4,
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Yonatan's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
+    name: "Rotem Kama",
+    position: "Co-founder & CTO @ CYNC Secure",
+    text: "Yonatan is one of those rare people who not only delivers great work but truly cares about what he’s building. He pays close attention to detail, always wants to learn and improve, and takes the time to understand the purpose behind his tasks. That mindset, combined with his technical skills, made him an essential part of our team.",
+    avatar: memojiAvatar1,
+  },
+  {
+    name: "Reut Katz",
+    position: "Full-stack Developer",
+    text: "I had the pleasure of working with Yonatan, and he is an exceptional professional and team player. His technical expertise, creative problem-solving skills, and dedication to delivering high-quality work are truly impressive. Yonatan's friendly and approachable fosters collaboration and positivity, making him a joy to work with.",
+    avatar: memojiAvatar2,
   },
 ];
 
