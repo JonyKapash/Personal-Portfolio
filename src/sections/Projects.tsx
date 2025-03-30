@@ -20,7 +20,7 @@ const portfolioProjects = [
       { title: "Saves them in a MongoDB database" },
       { title: "Built with Next.js, Tailwind, and MongoDB" },
     ],
-    link: "http://bit.ly/40OIOBY",
+    link: "https://techweb-yonatans-projects-a343b131.vercel.app",
     image: techWeb,
   },
   {
@@ -32,7 +32,7 @@ const portfolioProjects = [
       { title: "Made with Material UI" },
       { title: "Deployed on Vercel" },
     ],
-    link: "https://facebook-clone-otb73myja-yonatans-projects-a343b131.vercel.app",
+    link: "https://lambent-travesseiro-4fc788.netlify.app",
     image: facebookClone,
   },
   {
